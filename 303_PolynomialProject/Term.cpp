@@ -4,12 +4,13 @@
 // Kuhail
 // June 26, 2016
 
-#include <iostream>
-#include <string>
-#include <Term.h>
+#include "Term.h"
 
+Term::Term(double coeff, std::string var){
+    coefficient = coeff;
+    varX = var;
+}
 
-int main(){
-    
-    return 0;
+Term::~Term(){
+    //delete it
 }
